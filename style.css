@@ -20,13 +20,14 @@ img {
 
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   background-color: var(--Light-gray);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin: 1.25rem;
+  min-height: 100vh;
 }
 
 .container {
@@ -49,14 +50,6 @@ body {
 .container p {
   text-align: center;
   color: var(--Grayish-blue);
-}
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width:400px) {
